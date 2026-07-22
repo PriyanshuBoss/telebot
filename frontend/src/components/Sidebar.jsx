@@ -3,7 +3,14 @@ export default function Sidebar({
     currentConversation,
     onSelect,
     onNewChat,
-    onLogout,
+    const loadConversations = async () => {
+      const chats = await getConversations();
+      setConversations(chats);
+    
+      if (chats.length > 0) {
+        openConversation(chats[0].id);
+      }
+    };,
   }) {
     return (
       <div className="w-72 bg-slate-900 text-white flex flex-col">
