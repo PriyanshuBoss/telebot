@@ -275,43 +275,6 @@ The project includes acceptance tests covering:
 
 ---
 
-# Roadmap
-
-## Phase 1
-
-- Agent loop
-- Tool calling
-- RAG
-- Recharge workflow
-- Escalation
-
-## Phase 2
-
-- Hinglish support
-- Streaming responses
-- Plan recommendation
-- Sentiment detection
-- Network status tools
-- Rate limiting
-
-## Phase 3
-
-- Production authentication
-- Payment gateway
-- Hybrid search
-- Analytics
-- Multi-source knowledge
-
-## Phase 4
-
-- Voice support
-- Image understanding
-- Personalization
-- Proactive recommendations
-- Multi-provider LLM support
-
----
-
 # Project Goals
 
 - Demonstrate modern agentic AI workflows
