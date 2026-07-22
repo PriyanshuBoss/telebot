@@ -98,7 +98,7 @@ Each response may include:
 
 ## Backend
 
-- FastAPI
+- Django
 - PostgreSQL
 - pgvector
 
