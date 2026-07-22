@@ -5,6 +5,7 @@ from sqlalchemy import text
 from app.database import engine, Base
 from app.models import Message
 from app.api.chat import router as chat_router
+from app.api import auth
 from app.admin import setup_admin
 
 
@@ -26,6 +27,8 @@ app.add_middleware(
 
 # Register chat routes
 app.include_router(chat_router)
+app.include_router(auth.router)
+
 
 
 @app.get("/")
