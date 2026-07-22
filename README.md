@@ -98,11 +98,10 @@ Each response may include:
 
 ## Backend
 
-- Django
+- FastAPI
 - PostgreSQL
 - pgvector
-- Django ORM
-- Django Admin
+
 
 ## AI
 
@@ -127,7 +126,7 @@ Each response may include:
 Client
     │
     ▼
-Django API
+FastAPI
     │
     ▼
 Agent Loop
